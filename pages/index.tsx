@@ -41,32 +41,18 @@ const Home: NextPage = () => {
             <div className={styles.heroBody}>
               <h1 className={styles.heroTitle}>
                 <span className={styles.heroTitleGradient}>
-                  Seamless Experience
+                YEET! into the Future 
                 </span>
                 <br />
-                with the Web3 Marketplace.
+                of Digital Collectibles.
               </h1>
               <p className={styles.heroSubtitle}>
-                <Link
-                  className={styles.link}
-                  href="https://smartplaza.demarked.io"
-                  target="_blank"
-                >
-                  Smart Plaza
-                </Link>{" "}
-                <b>Web3</b> infrastructure in a <b>Web2</b>experience.
+              Join and Immerse Yourself in a Thriving Marketplace Where Collectors and Creators Converge!
               </p>
 
               <div className={styles.heroCtaContainer}>
                 <Link className={styles.heroCta} href="/buy">
                   Get Started
-                </Link>
-                <Link
-                  className={styles.secondaryCta}
-                  href="#"
-                  target="_blank"
-                >
-                  GitHub
                 </Link>
               </div>
             </div>
