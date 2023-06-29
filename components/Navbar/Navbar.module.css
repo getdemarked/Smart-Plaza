@@ -17,7 +17,7 @@
   padding-left: 2em;
   padding-right: 2em;
   display: flex;
-  padding-top: 20px;
+  padding-top: 25px;
   padding-bottom: 20px;
   align-items: center;
   justify-content: space-between;
@@ -34,7 +34,8 @@
   transition: all 0.15s ease-in-out;
 }
 
-.navMiddle {
+.navMiddle,
+.navMobile {
   display: flex;
   margin-left: 12px;
   flex-direction: row;
@@ -71,6 +72,8 @@
 .profileImage {
   margin-top: 6px;
   transition: all 0.15s ease-in-out;
+  height: 80%;
+  width: 80%;
 }
 
 .profileImage:hover {
@@ -89,7 +92,37 @@
 
 /* Screens less than 500px */
 @media (max-width: 500px) {
-  .navConnect {
-    display: flex !important;
+  .navMiddle {
+    display: none;
+  }
+
+  .navMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .navToggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 28px;
+    height: 24px;
+    cursor: pointer;
+  }
+
+  .toggleBar {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .active .toggleBar {
+    background-color: rgba(255, 255, 255, 1);
   }
 }

@@ -27,16 +27,24 @@ const Home: NextPage = () => {
               />
             </div>
           </div>
-          <div className={styles.heroAssetFrame}>
-            <Image
-              src="/hero-asset.png"
-              width={860}
-              height={540}
-              alt="Hero asset, NFT marketplace"
-              quality={100}
-              className={styles.heroAsset}
-            />
-          </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
           <div className={styles.heroBodyContainer}>
             <div className={styles.heroBody}>
               <h1 className={styles.heroTitle}>
@@ -55,6 +63,7 @@ const Home: NextPage = () => {
                   Get Started
                 </Link>
               </div>
+              
             </div>
           </div>
         </div>
