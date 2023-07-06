@@ -27,10 +27,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         paperWallet({
           clientId: "dd2a7b91-e862-4542-b6cd-1a6e8e23b277",
         }),
-        magicLink({
+        /*magicLink({
           apiKey: "",
         }),
-        /*smartWallet({
+          smartWallet({
           factoryAddress: "",
           thirdwebApiKey: "",
           gasless: false,

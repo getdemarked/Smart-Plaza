@@ -90,7 +90,7 @@ export default function TokenPage({ nft, contractMetadata }: Props) {
         totalPrice: bidValue,
       });
     } else {
-      throw new Error("No valid listing found for this NFT");
+      throw new Error("No valid listing found for this Digital Asset");
     }
 
     return txResult;
@@ -109,7 +109,7 @@ export default function TokenPage({ nft, contractMetadata }: Props) {
         1
       );
     } else {
-      throw new Error("No valid listing found for this NFT");
+      throw new Error("No valid listing found for this Digital Asset");
     }
     return txResult;
   }
